@@ -3,5 +3,3 @@ services:
     name: fibonacci-webapp
     buildCommand: "./mvnw clean package"
     startCommand: "java -jar target/roulette-1.0.0.jar"
-    repo: https://github.com/kozakospan2006-dev/fibonacci-webapp
-    branch: main
